@@ -71,7 +71,7 @@
     <div class="container-fluid" id="espacioSer"></div>
 
 
-    <div class="container-fluid pddTop " id="proce">
+    <div class="container-fluid pddTop fd" id="proce">
 
       <div class="row text-center">
         <h3 class="h3">Pensando en su salud neurologica, ofrecemos en nuestra IPS los siguientes procedimientos::</h3>

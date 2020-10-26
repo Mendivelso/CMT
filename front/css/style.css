@@ -922,6 +922,23 @@ footer{
 
 
 
+/*ADDD NUEVA FUNCIONALIDAD PARA SERVICIOS */
+
+.general{
+  padding: 0px;
+
+}
+
+.general li{
+  display: block !important;
+  font-size: 20px;
+}
+
+
+
+
+
+
 
 
 
@@ -1236,7 +1253,7 @@ footer{
     .logoazul2 {
         padding-top: 25px;
         position: relative;
-        top: 0px;
+        top: -22px;
     }
 
     .h1 {

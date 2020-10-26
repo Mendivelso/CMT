@@ -70,7 +70,7 @@ include_once '../includes/footer.php';
     <div class="container-fluid" id="espacioSer"></div>
 
 
-    <div class="container-fluid pddTop " id="proce">
+    <div class="container-fluid pddTop fd" id="proce">
 
       <div class="row text-center">
         <h3 class="h3">Para nosotros es importante su salud visual, por eso contamos con profesionales y equipos

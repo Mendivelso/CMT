@@ -432,7 +432,9 @@ nav ul li a{
 	    box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
 	    background: #195261;
 	    color: #fff;
-	    padding-bottom: 31px;
+		padding-bottom: 31px;
+		position: relative;
+    top: -15px;
 	}
 
 	nav ul li {

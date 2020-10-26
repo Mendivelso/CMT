@@ -219,10 +219,18 @@ body{
 }
 
 
-#proce{
-  background-color: #195261;
+#proce{  
   color: #fff;
   padding: 40px;
+}
+
+.fd{
+  background-color: #195261;
+}
+
+.proce{
+  background-color: #195261;
+  padding-bottom: 80px ;
 }
 
 
@@ -230,7 +238,31 @@ body{
   display: block;
   color: #fff;
   font-size: 19px;
-  padding: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.procedimientos li a{
+  
+  color: #fff;
+  font-size: 19px;
+  cursor: pointer;
+  
+}
+
+
+
+
+.procedimientos .active a{
+  background: #fefffe;
+  color: #195261;
+}
+
+
+.procedimientos  .active{
+  background: #fefffe;
+  color: #195261;
+  font-family: "Muli-SemiBold";
 
 }
 
@@ -277,6 +309,51 @@ body{
   font-family: "Muli-Bold";
 }
 
+
+
+
+/*ADDD NUEVA FUNCIONALIDAD PARA SERVICIOS */
+
+  .cuadro {
+    padding-left: 30px;
+  }
+
+  .cuadro h3{
+    font-family: "Muli-SemiBold";
+    font-size: 22px;
+    color: #195261;
+  }
+
+  .cuadro p{
+    font-family: "Quicksand-Regular";
+    font-size: 17px;
+    color: #000;
+  }
+
+
+.general{
+  padding: 0px;
+  list-style: circle !important;
+}
+
+.general li{
+  display: block !important;
+  font-size: 17px;
+  padding: 5px;
+  color: #000;
+  font-family: "Quicksand-Regular";
+  
+}
+
+#proce2, #proce3, #proce4 , #proce5{
+  display: none;
+}
+
+.h3-ser{
+  color: #fff;
+  position: relative;
+  top: 40px;
+}
 
 
 @media screen and (max-width: 1199px){
