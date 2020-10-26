@@ -1,0 +1,429 @@
+@font-face {font-family: "Muli-SemiBold";
+  src: url("../css/fonts/Muli-SemiBold.ttf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Muli-SemiBold.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+@font-face {font-family: "Muli-Bold";
+  src: url("../css/fonts/Muli-Bold.ttf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Muli-Bold.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+@font-face {font-family: "Muli-Italic";
+  src: url("../css/fonts/Muli-Italic.ttf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Muli-Italic.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+@font-face {font-family: "Muli-ExtraBold";
+  src: url("../css/fonts/Muli-ExtraBold.ttf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Muli-ExtraBold.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+@font-face {font-family: "Muli-ExtraLight";
+  src: url("../css/fonts/Muli-ExtraLight.ttf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Muli-ExtraLight.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+@font-face {font-family: "Muli-BoldItalic";
+  src: url("../css/fonts/Muli-BoldItalic.ttf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Muli-BoldItalic.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+@font-face {font-family: "Muli-Light";
+  src: url("../css/fonts/Muli-Light.ttf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Muli-Light.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+
+@font-face {font-family: "Quicksand-Regular";
+  src: url("../css/fonts/Quicksand-Regular.otf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Quicksand-Regular.otf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+
+.espacioT{
+  height: 120px;
+}
+
+
+
+body{
+  background-color: #fff;
+}
+
+
+.EspacioLibre {
+    background-color: #fff;
+    height: 100px;
+}
+
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+
+.espacio{height: 85px;}
+
+.h2{font-family: "Muli-Bold"; color: #706F6F;    margin-bottom: 30px;
+    text-align: center;}
+
+    .icon{
+      position: relative;
+      top: 130px;
+    }
+
+    .h1{font-family: "Muli-Bold"; color: #195261;  font-weight: 900; font-size: 70px;
+        text-align: center; position: relative; top: 140px;}
+
+
+
+
+    .servicio-img{
+      width: 100%;
+      border-bottom-left-radius: 120px;
+    }
+
+
+
+
+
+        footer{
+
+          height: 340px;
+          background-image: url('../img/footer.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: top;
+          padding-top: 100px;
+
+        }
+        ul{
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          position: relative;
+          top: 25px;
+        }
+
+        ul li{
+          display: inline-block;
+          padding: 15px;
+          color: #fff;
+          font-family: "Muli-SemiBold";
+        }
+
+        ul li a{
+
+          color: #fff;
+          font-family: "Muli-SemiBold";
+          margin-top: 20px;
+          font-size: 17px;
+        }
+
+
+        ul li a:hover {
+          color: #fff;
+        }
+
+.inner2{
+  height: 959px;
+}
+
+
+
+.pdd {
+    padding: 0px 0px 0px 80px;
+}
+
+.del{
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.p1{
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Muli-SemiBold";
+  font-size: 20px;
+}
+
+.p2{
+  color: #000;
+  text-align: center;
+  font-family: "Muli-SemiBold";
+  font-size: 18px;
+  padding: 5px 20px 5px 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.info{
+
+  position: relative;
+  top: 250px;
+  width: 93%;
+  margin:0 auto;
+}
+
+
+.BText{
+  background-color: #275c74a6;
+  padding: 12px;
+}
+
+.Cbtn{
+  position: relative;top: 12px;
+}
+
+.Cbtn button {
+  background-color: #275c74;
+  border-radius: 20px;
+}
+
+
+
+.pddTop{
+  padding-top: 80px;
+}
+
+.pddBottom{
+  padding-bottom: 80px;
+}
+
+
+
+.ser{
+  width: 100%;
+}
+
+
+.procedimientos {
+  position: relative;
+  list-style: circle;
+
+}
+
+
+#proce{
+  background-color: #195261;
+  color: #fff;
+  padding: 40px;
+}
+
+
+.procedimientos li{
+  display: block;
+  color: #fff;
+  font-size: 19px;
+  padding: 5px;
+
+}
+
+
+.h3{
+    font-family: "Muli-Bold";
+}
+
+
+#espacioSer{
+  height: 120px;
+  background-color: #fff;
+}
+
+
+.h1-title{
+  font-family: "Muli-Bold"; color: #195261;  font-weight: 900; font-size: 50px;
+  text-align: center; position: relative; top: 0px;
+}
+
+
+.serv{
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 170px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.BText{
+  background-color: #275c74a6;
+  padding: 10px;
+  color: #fff;
+  font-family: "Muli-Bold";
+}
+
+
+
+.ver{
+  background-color: #275c74;
+  border-radius: 20px;
+  font-family: "Muli-Bold";
+}
+
+
+
+@media screen and (max-width: 1199px){
+
+  .card-img-top {
+      min-height: 210px;
+      width: 100%;
+  }
+
+  .icon {
+      position: relative;
+      top: 120px;
+  }
+
+  .h1 {
+      font-family: "Muli-Bold";
+      color: #195261;
+      font-weight: 900;
+      font-size: 54px;
+      text-align: center;
+      position: relative;
+      top: 90px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 991px){
+
+
+    /*serviciso */
+
+    .h1 {
+        font-family: "Muli-Bold";
+        color: #195261;
+        font-weight: 900;
+        font-size: 46px;
+        text-align: center;
+        position: relative;
+        top: 15px;
+    }
+
+    .icon {
+        position: relative;
+        top: 43px;
+        width: 120px;
+    }
+
+
+
+  .card-img-top {
+      min-height: 160px;
+      width: 100%;
+  }
+
+  #slider1 .overview li{
+    height: 430px;
+    width:350px;
+  }
+
+  #articulos{
+    height: 630px;
+  }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 767px){
+
+
+      .h1 {
+          font-family: "Muli-Bold";
+          color: #195261;
+          font-weight: 900;
+          font-size: 40px;
+          text-align: center;
+          position: relative;
+          top: 0px;
+          padding: 20px;
+      }
+
+      .icon {
+          position: relative;
+          top: 13px;
+          width: 120px;
+      }
+
+      .servicio-img {
+          width: 85%;
+          border-bottom-left-radius: 120px;
+          margin: 0 auto;
+      }
+
+      .ser {
+          width: 100%;
+          padding: 20px;
+          margin-top: 40px;
+          border-bottom: 2px #000 solid;
+      }
+
+      .pdd {
+          padding: 0px 10px 0px 10px;
+      }
+
+
+    .card-img-top {
+        min-height:auto;
+        width: 80%;
+    }
+
+
+    .card{
+      margin-top: 15px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 350px){
+  .pdd {
+      padding: 0px 0px 0px 0px;
+  }
+
+  .h1 {
+      font-family: "Muli-Bold";
+      color: #195261;
+      font-weight: 900;
+      font-size: 30px;
+      text-align: center;
+      position: relative;
+      top: -9px;
+  }
+  #articulos {
+      height: 449px;
+      background-position: right;
+  }
+
+  footer img{
+    width:250px;
+  }
+
+
+}

@@ -1,0 +1,464 @@
+@font-face {font-family: "Muli-SemiBold";
+  src: url("../css/fonts/Muli-SemiBold.ttf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Muli-SemiBold.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+@font-face {font-family: "Muli-Bold";
+  src: url("../css/fonts/Muli-Bold.ttf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Muli-Bold.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+@font-face {font-family: "Muli-Italic";
+  src: url("../css/fonts/Muli-Italic.ttf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Muli-Italic.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+@font-face {font-family: "Muli-ExtraBold";
+  src: url("../css/fonts/Muli-ExtraBold.ttf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Muli-ExtraBold.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+@font-face {font-family: "Muli-ExtraLight";
+  src: url("../css/fonts/Muli-ExtraLight.ttf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Muli-ExtraLight.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+@font-face {font-family: "Muli-BoldItalic";
+  src: url("../css/fonts/Muli-BoldItalic.ttf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Muli-BoldItalic.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+@font-face {font-family: "Muli-Light";
+  src: url("../css/fonts/Muli-Light.ttf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Muli-Light.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+
+@font-face {font-family: "Quicksand-Regular";
+  src: url("../css/fonts/Quicksand-Regular.otf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Quicksand-Regular.otf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+
+
+
+
+/*******************************     ESTILOS MENU DE NAVEGACION          ****************************************/
+
+nav{
+  background-color: #fff !important;
+  height: 120px;
+}
+
+nav ul li {
+  padding-left: 12px !important;
+  padding-top: 5px !important;
+  margin-top: 0px !important;
+}
+
+nav ul li a{
+  margin-top: 4px !important;
+  font-size: 20px;
+}
+
+
+#slide{
+  position: relative;
+  top: 120px;
+}
+
+
+/*estilos menu*/
+.car{width: 30px;}
+.navbar{border-radius: 0px; margin-bottom: 0px;}
+.navbar-inverse {
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.navbar-right{
+  padding-right: 40px;
+  position: relative;
+  top: 25px;
+}
+
+
+
+.navbar-right li a {
+  font-family: "Muli-Italic";
+  font-size: 20px;
+  color: #000 !important;
+}
+.navbar-right li a:hover {
+  color: #9d9d9d !important;
+}
+.navbar-right li a:active {
+  color: #9d9d9d !important;
+}
+
+.navbar-right li a::after {
+  color: #9d9d9d !important;
+}
+
+
+#redes {
+  position: relative;
+  top: -5px;
+}
+
+#redes li{
+  padding: 0px;
+  display: inline-block;
+}
+
+#redes li a img{
+  width: 50px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1377px){
+
+  nav ul li {
+      padding-left: 0px !important;
+      padding-top: 5px !important;
+      margin-top: 0px !important;
+      padding: 3px !important;
+  }
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 1273px){
+
+
+  nav ul li {
+      padding-left: 0px !important;
+      padding-top: 5px !important;
+      margin-top: 0px !important;
+      padding: 0px !important;
+  }
+
+
+  #redes {
+    position: relative;
+    top: 0px;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1233px){
+
+
+  nav ul li {
+      padding-left: 0px !important;
+      padding-top: 5px !important;
+      margin-top: 0px !important;
+      padding: 0px !important;
+  }
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 1219px){
+
+
+  nav ul li {
+      padding-left: 0px !important;
+      padding-top: 5px !important;
+      margin-top: 0px !important;
+      padding: 0px !important;
+  }
+
+
+ .nav>li>a {
+     position: relative;
+     display: block;
+     padding: 5px 9px;
+ }
+	#redes {
+	  position: relative;
+	  top: -10px;
+	}
+
+	.navbar-right{
+	  padding-right: 40px;
+	  position: relative;
+	  top: 35px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1199px){
+
+
+
+  /*ESTILOS MENU*/
+
+  .nav>li>a {
+      position: relative;
+      display: block;
+      padding: 10px 8px;
+  }
+
+  #redes li a img {
+      width: 40px;
+  }
+
+
+  #redes {
+    position: relative;
+    top: 8px;
+  }
+
+
+	.navbar-right li a{
+	  margin-top: 4px !important;
+	  font-size: 18px;
+	}
+
+
+#redes{
+	padding: 0px !important;
+}
+
+	.logoazul {
+	    padding-top: 5px;
+	    padding-left: 0px;
+
+	}
+
+	#redes li a img {
+
+	}
+
+	.navbar-right {
+	    padding-right: 25px;
+	    position: relative;
+	    top: 30px;
+	    right: 0;
+	}
+
+
+}
+
+
+
+
+@media screen and (max-width: 991px){
+
+	.navbar-right {
+	    padding-right: 13px;
+	    position: relative;
+	    top: 30px;
+	    right: 0;
+	}
+
+	#redes {
+	    position: relative;
+	    top: 3px;
+	}
+
+	.navbar-right li a {
+	    margin-top: 4px !important;
+	    font-size: 16px;
+	}
+
+	.logoazul {
+	    padding-top: 5px;
+	    padding-left: 0px;
+	    width: 175px;
+	}
+
+
+/*
+	.logoazul {
+	    padding-top: 5px;
+	    padding-left: 0px;
+	    width: 116px;
+	}
+
+	#redes li a img {
+	    width: 25px;
+	}
+
+
+
+	nav{
+	  background-color: red !important;
+	  height: auto;
+	}*/
+
+
+}
+
+
+@media screen and (max-width: 846px){
+
+	.logoazul {
+	    padding-top: 5px;
+	    padding-left: 0px;
+	    width: 155px;
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 833px){
+
+	.logoazul {
+	    padding-top: 5px;
+	    padding-left: 0px;
+	    width: 150px;
+	}
+
+	#redes li a img {
+	    width: 28px;
+	}
+
+	#redes {
+	    position: relative;
+	    top: 8px;
+	}
+}
+
+
+@media screen and (max-width: 785px){
+
+	.logoazul {
+	    padding-top: 5px;
+	    padding-left: 0px;
+	    width: 130px;
+	}
+
+
+}
+
+
+@media screen and (max-width: 772px){
+
+	.navbar-right li a {
+	    margin-top: 4px !important;
+	    font-size: 15px;
+	}
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 767px){
+
+	.navbar-toggle {
+	    position: relative;
+	    float: right;
+	    padding: 9px 10px;
+	    margin-top: 8px;
+	    margin-right: 15px;
+	    margin-bottom: 8px;
+	    background-color: #195261;
+	    background-image: none;
+	    border: 1px solid transparent;
+	    border-radius: 4px;
+	}
+
+
+	nav {
+	    background-color: #fff !important;
+	    height: 81px;
+	}
+
+	.logoazul {
+	    padding-top: 0px;
+	    position: relative;
+	    top: 0px;
+	}
+
+	.navbar-header{
+		height: 90px;
+	}
+
+
+
+	.navbar-collapse {
+	    padding-right: 15px;
+	    padding-left: 15px;
+	    overflow-x: visible;
+	    -webkit-overflow-scrolling: touch;
+	    border-top: 1px solid transparent;
+	    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+	    box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+	    background: #195261;
+	    color: #fff;
+	    padding-bottom: 31px;
+	}
+
+	nav ul li {
+	    padding-left: 0px !important;
+	    padding-top: 5px !important;
+	    margin-top: 0px !important;
+	    padding: 0px !important;
+	    border-bottom: 1px #fff solid;
+	}
+
+	nav ul li a{
+		color: #fff;
+	}
+
+	.navbar-right li a {
+	    margin-top: 4px !important;
+	    font-size: 18px;
+	    color: #fff !important;
+	}
+
+	#redes {
+	    position: relative;
+	    top: 0;
+	    padding: 10px !important;
+	}
+
+
+
+}

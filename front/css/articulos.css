@@ -1,0 +1,392 @@
+@font-face {font-family: "Muli-SemiBold";
+  src: url("../css/fonts/Muli-SemiBold.ttf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Muli-SemiBold.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+@font-face {font-family: "Muli-Bold";
+  src: url("../css/fonts/Muli-Bold.ttf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Muli-Bold.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+@font-face {font-family: "Muli-Italic";
+  src: url("../css/fonts/Muli-Italic.ttf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Muli-Italic.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+@font-face {font-family: "Muli-ExtraBold";
+  src: url("../css/fonts/Muli-ExtraBold.ttf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Muli-ExtraBold.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+@font-face {font-family: "Muli-ExtraLight";
+  src: url("../css/fonts/Muli-ExtraLight.ttf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Muli-ExtraLight.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+@font-face {font-family: "Muli-BoldItalic";
+  src: url("../css/fonts/Muli-BoldItalic.ttf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Muli-BoldItalic.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+@font-face {font-family: "Muli-Light";
+  src: url("../css/fonts/Muli-Light.ttf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Muli-Light.ttf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+
+@font-face {font-family: "Quicksand-Regular";
+  src: url("../css/fonts/Quicksand-Regular.otf") format("TTF"), /* chrome、firefox */
+  url("../css/fonts/Quicksand-Regular.otf") format("truetype"); /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+}
+
+
+
+body{
+  background-color: #fff;
+}
+
+
+
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+
+.espacio{height: 85px;}
+
+.h2{font-family: "Muli-Bold"; color: #706F6F;    margin-bottom: 30px;
+    text-align: center;}
+
+
+
+    .h1{font-family: "Muli-Bold"; color: #195261;  font-weight: 900; font-size: 80px;
+        text-align: center; position: relative; top: 200px;}
+
+
+
+        footer{
+
+          height: 340px;
+          background-image: url('../img/footer.png');
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: top;
+          padding-top: 100px;
+
+        }
+        ul{
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          position: relative;
+          top: 25px;
+        }
+
+        ul li{
+          display: inline-block;
+          padding: 15px;
+          color: #fff;
+          font-family: "Muli-SemiBold";
+        }
+
+        ul li a{
+
+          color: #fff;
+          font-family: "Muli-SemiBold";
+          margin-top: 20px;
+          font-size: 17px;
+        }
+
+        ul li a:hover {
+          color: #fff;
+        }
+
+
+.inner2{
+  height: 959px;
+}
+
+
+#articulos{
+  height:950px;
+  background-image: url('../img/articulos.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.pdd {
+    padding: 0px 80px 0px 80px;
+}
+
+.p1{
+  color: darkgrey;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Muli-SemiBold";
+  font-size: 20px;
+}
+
+.p2{
+  color: #000;
+  text-align: center;
+  font-family: "Muli-SemiBold";
+  font-size: 18px;
+  padding: 5px 20px 5px 20px;
+
+}
+
+
+
+
+
+/*ARTICULOSO */
+
+
+/* Tiny Carousel */
+#slider1 {
+    height: auto;
+    margin: 30px 0 0;
+    /*overflow: hidden;*/
+    position: relative;
+    /*padding: 0 50px 10px;*/
+}
+#slider1 .viewport {
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+#slider1 .buttons {
+    border-radius: 35px;
+    display: block;
+    position: absolute;
+    top: 38%;
+    left: 15px;
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 30px;
+}
+#slider1 .next{
+    right: 15px;
+    left: auto;
+    top: 38%;
+}
+
+#slider1 .prev{
+      right: auto;
+    left: 0;
+    z-index: 10;
+}
+
+#slider1 .overview {
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    width: 240px;
+    left: 0;
+    top: 0;
+}
+#slider1 .overview li {
+    float: left;
+    margin: 0 15px 0 0;
+    padding: 1px;
+    /*height: 325px;*/
+    height: 450px;
+    width: 400px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+ }
+#slider1 .overview li h4 {
+  position: absolute;
+  top: 295px;
+  color: #fff;
+}
+
+#slider1 .overview li  img{
+  height: auto;
+  /*display: none;*/
+}
+
+
+@media screen and (max-width: 320px){
+  #slider1 .viewport {
+    height: 370px;
+    position: relative;
+
+  }
+  #slider1 .overview li  img{
+  height: auto;
+  width: 100%;
+  /*display: none;*/
+}
+#slider1 {padding: 0px;}
+
+}
+
+
+
+
+
+.info{
+
+  position: relative;
+  top: 250px;
+  width: 93%;
+  margin:0 auto;
+}
+
+
+.BText{
+  background-color: #275c74a6;
+  padding: 12px;
+}
+
+.Cbtn{
+  position: relative;top: 12px;
+}
+
+.Cbtn button {
+  background-color: #275c74;
+  border-radius: 20px;
+}
+
+
+.card{
+  border: 2px #eee solid;
+  padding: 15px;
+}
+
+.card-title{
+  text-align: center;
+  color: #000;
+  font-size: 20px;
+  font-family: "Muli-SemiBold";
+  font-weight: 700;
+}
+
+.card-text{
+  color: #000;
+  font-size: 18px;
+  font-family: "Muli-SemiBold";
+  text-align: center;
+}
+
+.card-img-top{
+  min-height: 250px;
+  width: 100%;
+}
+
+.card a{
+  border-radius: 15px;
+  background-color: #275c74;
+  color: #fff;
+}
+
+.pddTop{
+  padding-top: 80px;
+}
+
+.pddBottom{
+  padding-bottom: 80px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1199px){
+
+  .card-img-top {
+      min-height: 210px;
+      width: 100%;
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 991px){
+
+  .card-img-top {
+      min-height: 160px;
+      width: 100%;
+  }
+
+  #slider1 .overview li{
+    height: 430px;
+    width:350px;
+  }
+
+  #articulos{
+    height: 630px;
+  }
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 767px){
+
+    .card-img-top {
+        min-height:auto;
+        width: 80%;
+    }
+
+
+    .card{
+      margin-top: 15px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 350px){
+  .pdd {
+      padding: 0px 10px 0px 10px;
+  }
+
+
+  .h1 {
+      font-family: "Muli-Bold";
+      color: #195261;
+      font-weight: 900;
+      font-size: 60px;
+      text-align: center;
+      position: relative;
+      top: 75px;
+  }
+
+  #articulos {
+      height: 449px;
+      background-position: right;
+  }
+
+  footer img{
+    width:250px;
+  }
+
+
+}
